@@ -1,0 +1,123 @@
+.TituloP {
+  text-align: center;
+}
+.TituloS {
+  text-align: center;
+}
+
+img {
+  width: 1000px;
+}
+.CuartoLavado {
+  display: flex;
+  float: left;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.Habitacion1 {
+  display: flex;
+  float: left;
+  display: flex;
+  float: left;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.Habitacion2 {
+  display: flex;
+  float: left;
+  display: flex;
+  float: left;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.Habitacion3 {
+  display: flex;
+  float: left;
+  display: flex;
+  float: left;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.BanoPrincipal {
+  display: flex;
+  float: left;
+  display: flex;
+  float: left;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.BanoPrivado {
+  display: flex;
+  display: flex;
+  float: left;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.botonesAdicionalesLavado {
+  display: none;
+
+  float: left;
+  width: 500px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.botonesAdicionaHabitacion1 {
+  display: none;
+
+  float: left;
+  width: 500px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.botonesAdicionaHabitacion2 {
+  display: none;
+  float: left;
+  width: 500px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.botonesAdicionaHabitacion3 {
+  display: none;
+  float: left;
+  width: 500px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.botonesAdicionaBanoPrincipal {
+  display: none;
+  float: left;
+  width: 500px;
+  height: 50px;
+  font-size: 1.2em;
+}
+.botonesAdicionaBanoPrivado {
+  display: none;
+  float: left;
+  width: 500px;
+  height: 50px;
+  font-size: 1.2em;
+}
+
+.Todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Adicionales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Plano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

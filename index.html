@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Simulador Inclusion y Dignidad</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1 class="TituloP">Inclusion Y Dignidad</h1>
+    <h2 class="TituloS">Simulador De Software</h2>
+    <div class="Plano">
+      <img
+        id="Inicial"
+        src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Negro.png?v=1682813596941"
+        alt="Imagen"
+      />
+    </div>
+    <br />
+
+    <div class="Todo">
+      <div class="CuartoLavado">
+        <audio id="APuertaLavado">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Puerta.mp3?v=1683663986680"
+            type="audio/mpeg"
+          />
+        </audio>
+        <button
+          id="cambiarDentroLavado"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroApagado.png?v=1683391700568"
+        >
+          Cuarto Lavado
+        </button>
+      </div>
+
+      <div class="Habitacion1">
+        <audio id="APuertaH1">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Puerta.mp3?v=1683663986680"
+            type="audio/mpeg"
+          />
+        </audio>
+        <button
+          id="cambiarDentroHabitacion1"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion1Apagado.png?v=1683391794681"
+        >
+          Cuarto 1
+        </button>
+      </div>
+
+      <div class="Habitacion2">
+        <button
+          id="cambiarDentroHabitacion2"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion2Apagado.png?v=1683394219514"
+        >
+          Cuarto Invitado
+        </button>
+      </div>
+
+      <div class="Habitacion3">
+        <button
+          id="cambiarDentroHabitacion3"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion3Apagado.png?v=1683395110258"
+        >
+          Cuarto Principal
+        </button>
+      </div>
+
+      <div class="BanoPrincipal">
+        <button
+          id="cambiarBanoPrincipal"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroBan%CC%83oApagado.png?v=1683396855445"
+        >
+          Baño Principal
+        </button>
+      </div>
+
+      <div class="BanoPrivado">
+        <button
+          id="cambiarBanoPrivado"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroBan%CC%83oPrivadoApagado.png?v=1683398066232"
+        >
+          Baño Privado
+        </button>
+      </div>
+    </div>
+
+    <div class="Adicionales">
+      <div class="botonesAdicionalesLavado">
+        <button
+          id="EncenderLavado"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroPrendiod.png?v=1682820290487"
+        >
+          Encender Lavado
+        </button>
+        <button
+          id="ApagarLavado"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroApagado.png?v=1683391700568"
+        >
+          Apagar Lavado
+        </button>
+
+        <audio id="VentanaL">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Ventana.mp3?v=1683661700166"
+            type="audio/mpeg"
+          />
+        </audio>
+
+        <button id="AbrirVenatanaLavado">Abrir Ventana</button>
+
+        <audio id="CPuertaLavado">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Puerta.mp3?v=1683663986680"
+            type="audio/mpeg"
+          />
+        </audio>
+
+        <button id="volver">Salir Lavado</button>
+      </div>
+
+      <div class="botonesAdicionaHabitacion1">
+        <button
+          id="EncenderHabitacion1"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion1Prendido.png?v=1683391804356"
+        >
+          Encender cuarto
+        </button>
+        <button
+          id="ApagarHabitacion1"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion1Apagado.png?v=1683391794681"
+        >
+          Apagar cuarto
+        </button>
+
+        <audio id="VentanaH1">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Ventana.mp3?v=1683661700166"
+            type="audio/mpeg"
+          />
+        </audio>
+
+        <button id="AbrirVenatanaH1">Abrir Ventana</button>
+
+        <button id="volver2">Salir cuarto</button>
+      </div>
+
+      <div class="botonesAdicionaHabitacion2">
+        <button
+          id="EncenderHabitacion2"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion2Prendido.png?v=1683394467025"
+        >
+          Encender Invitado
+        </button>
+        <button
+          id="ApagarHabitacion2"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion2Apagado.png?v=1683394219514"
+        >
+          Apagar Invitado
+        </button>
+
+        <audio id="VentanaH2">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Ventana.mp3?v=1683661700166"
+            type="audio/mpeg"
+          />
+        </audio>
+
+        <button id="AbrirVenatanaH2">Abrir Ventana</button>
+        <button id="volver3">Salir Invitado</button>
+      </div>
+
+      <div class="botonesAdicionaHabitacion3">
+        <button
+          id="EncenderHabitacion3"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion3Prendido.png?v=1683395117861"
+        >
+          Encender Principal
+        </button>
+        <button
+          id="ApagarHabitacion3"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroHabitacion3Apagado.png?v=1683395110258"
+        >
+          Apagar Principal
+        </button>
+        <audio id="VentanaH3">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Ventana.mp3?v=1683661700166"
+            type="audio/mpeg"
+          />
+        </audio>
+
+        <button id="AbrirVenatanaH3">Abrir Ventana</button>
+        <button id="volver4">Salir Principal</button>
+      </div>
+
+      <div class="botonesAdicionaBanoPrincipal">
+        <button
+          id="EncenderBañoPrincipal"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroBan%CC%83oPrendido.png?v=1683396919094"
+        >
+          Encender Principal
+        </button>
+        <button
+          id="ApagarBañoPrincipal"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroBan%CC%83oApagado.png?v=1683396855445"
+        >
+          Apagar Principal
+        </button>
+        <audio id="BajarBanoPr">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Ba%C3%B1o.mp3?v=1683663103755"
+            type="audio/mpeg"
+          />
+        </audio>
+
+        <button id="BajarBanoPrin">Descargar el baño</button>
+
+        <button id="volver5">Salir Principal</button>
+      </div>
+
+      <div class="botonesAdicionaBanoPrivado">
+        <button
+          id="EncenderBañoPrivado"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroBan%CC%83oPrivadoPrendido.png?v=1683398070671"
+        >
+          Encender Privado
+        </button>
+        <button
+          id="ApagarBañoPrivado"
+          data-image="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/DentroBan%CC%83oPrivadoApagado.png?v=1683398066232"
+        >
+          Apagar Privado
+        </button>
+
+        <audio id="BajarBanoP">
+          <source
+            src="https://cdn.glitch.global/d7cb4701-bcc3-4801-b808-afe62d7fd7cd/Ba%C3%B1o.mp3?v=1683663103755"
+            type="audio/mpeg"
+          />
+        </audio>
+
+        <button id="BajarBanoPriv">Descargar el baño</button>
+
+        <button id="volver6">Salir Privado</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
